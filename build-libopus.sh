@@ -23,7 +23,7 @@
 #  Choose your libopus version and your currently-installed iOS SDK version:
 #
 VERSION="1.3"
-SDKVERSION="10.2"
+SDKVERSION=$(xcrun --sdk iphoneos --show-sdk-version)
 MINIOSVERSION="8.0"
 
 ###########################################################################
